@@ -6,11 +6,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "aws-amplify": "^6.0.6",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^0.6.0",
+    "@aws-amplify/backend-cli": "^0.9.2",
+    "typescript": "^5.3.3"
   }
 }
