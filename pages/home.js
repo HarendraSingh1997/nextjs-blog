@@ -5,5 +5,5 @@ export const getServerSideProps = async (context) => {
 };
 
 export default function Page({ repo }) {
-  return JSON.stringify(repo);
+  return JSON.stringify(repo.stargazers_count);
 }
