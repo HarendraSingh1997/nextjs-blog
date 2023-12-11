@@ -17,6 +17,7 @@
   "devDependencies": {
     "@aws-amplify/backend": "^0.6.0",
     "@aws-amplify/backend-cli": "^0.9.2",
+    "@types/react": "18.2.42",
     "typescript": "^5.3.3"
   }
 }
